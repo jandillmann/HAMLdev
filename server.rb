@@ -3,6 +3,7 @@
 ['rubygems', 'sinatra', 'haml'].each { |lib| require lib }
 
 set :views, :scss => 'styles', :haml => 'templates', :default => 'views'
+set :public, File.dirname(__FILE__) + '/static'
 set :haml, :format => :html5
 
 helpers do
