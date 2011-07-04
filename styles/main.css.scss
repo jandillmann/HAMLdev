@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+}
+
+#content {
+    margin: 0 auto;
+    width: 200px;
+    p {
+        font-style: italic;
+    }
+    ul li {
+        list-style: square;
+    }
+    a {
+        text-decoration: none;
+    }
+}
